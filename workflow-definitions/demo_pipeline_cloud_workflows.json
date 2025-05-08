@@ -23,7 +23,7 @@
           "STEPS": [
             {
               "JOB_ID": "J02",
-              "JOB_NAME": "sample_jdbc_dataflow_ingestion",
+              "JOB_NAME": "postgres_to_bigquery",
               "TYPE": "async",
               "FUNCTION_ID_NAME": "dataflow-flextemplate-job-executor",
               "FUNCTION_STATUS_NAME": "dataflow-flextemplate-job-executor",
@@ -42,7 +42,7 @@
           "STEPS": [
             {
               "JOB_ID": "J03",
-              "JOB_NAME": "run_dataform_tag",
+              "JOB_NAME": "vaporviews_analysis",
               "TYPE": "async",
               "FUNCTION_ID_NAME": "dataform-tag-executor",
               "FUNCTION_STATUS_NAME": "dataform-tag-executor",
